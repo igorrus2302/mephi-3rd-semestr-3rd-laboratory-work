@@ -2,6 +2,8 @@
 
 #include <string>
 
+
+
 const static int countFirstNames = 65;
 const static int countLastNames = 90;
 const static int countPatronymics = 90;

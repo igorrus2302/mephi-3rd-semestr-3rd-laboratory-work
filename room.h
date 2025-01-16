@@ -7,6 +7,8 @@
 #include <string>
 #include <limits>
 
+
+
 struct Room {
 
     int capacity;  // Вместимость

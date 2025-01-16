@@ -11,6 +11,8 @@
 #include <string>
 #include <limits>
 
+
+
 struct Person {
 
     std::string firstName;   // Имя

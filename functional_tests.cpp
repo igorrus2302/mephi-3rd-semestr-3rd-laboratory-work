@@ -6,6 +6,7 @@
 #include <cassert>
 
 
+
 void HashTableTests()
 {
     HashTable<int, std::string> table;

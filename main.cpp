@@ -1,6 +1,6 @@
 #include "menu.h"
 
-//написать тесты
+
 
 int main()
 {

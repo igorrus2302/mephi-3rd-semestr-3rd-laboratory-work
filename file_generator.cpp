@@ -8,6 +8,7 @@
 #include <cstdlib>
 
 
+
 void GenerateItemsFile(const std::string& fileName, int numberOfItems, int maxWeight, int maxVolume, int maxValue)
 {
     std::ofstream file(fileName);

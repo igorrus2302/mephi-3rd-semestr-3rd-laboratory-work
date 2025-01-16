@@ -5,6 +5,7 @@
 #include "sequence.h"
 
 
+
 template <class T>
 class DynamicArray : public Sequence<T>
 {

@@ -10,6 +10,7 @@
 #include "person.h"
 
 
+
 DynamicArray<Item> ReadItemsFromFile(const std::string& fileName)
 {
     std::ifstream file(fileName);

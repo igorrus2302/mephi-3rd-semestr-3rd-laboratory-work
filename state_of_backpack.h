@@ -2,6 +2,8 @@
 
 #include "dynamic_array.h"
 
+
+
 struct StateOfBackpack
 {
     int totalValue;

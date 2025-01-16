@@ -7,6 +7,7 @@
 #include <string>
 
 
+
 void WriteIndexAlphabetToFile(const std::string& fileName, const HashTable<std::string, DynamicArray<int>>& hashTable);
 
 template <typename T>

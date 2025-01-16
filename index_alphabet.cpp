@@ -5,6 +5,7 @@
 #include <string>
 
 
+
 void BuildAlphabetIndex(HashTable<std::string, DynamicArray<int>>& wordPageHashTable, const std::string& text,
                         int pageSize, bool isByWords)
 {

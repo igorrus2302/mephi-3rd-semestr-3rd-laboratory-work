@@ -6,6 +6,8 @@
 #include <string>
 #include <fstream>
 
+
+
 void WriteIndexAlphabetToFile(const std::string& fileName, const HashTable<std::string, DynamicArray<int>>& hashTable)
 {
     std::ofstream file(fileName);

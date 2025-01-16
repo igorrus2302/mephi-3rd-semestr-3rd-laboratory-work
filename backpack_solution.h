@@ -5,6 +5,7 @@
 #include "state_of_backpack.h"
 
 
+
 StateOfBackpack SolveBackpackA(const DynamicArray<Item>& items, int maxVolume);
 StateOfBackpack SolveBackpackB(const DynamicArray<Item>& items, int maxVolume, int maxWeight);
 StateOfBackpack SolveBackpackC(const DynamicArray<Item>& items, int maxWeight);
