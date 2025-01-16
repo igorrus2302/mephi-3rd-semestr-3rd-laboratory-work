@@ -29,4 +29,6 @@ add_executable(3semestr_3laboratory main.cpp
         index_alphabet.h
         file_writer.cpp
         file_writer.h
-        container_for_unique_pointer.h)
+        container_for_unique_pointer.h
+        functional_tests.cpp
+        functional_tests.h)

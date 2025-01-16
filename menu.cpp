@@ -8,6 +8,7 @@
 #include "hash_table.h"
 #include "room_allocator.h"
 #include "index_alphabet.h"
+#include "functional_tests.h"
 
 
 using RoomAllocation = HashTable<Room, std::set<Person>>;
@@ -145,6 +146,7 @@ void Menu()
                     break;
                 }
 
+                std::cout << "\n\n";
                 break;
             }
 
@@ -288,7 +290,15 @@ void Menu()
 
                 WriteIndexAlphabetToFile(outputFileName, indexAlphabet);
 
+                std::cout << "\n\n";
+
                 break;
+            }
+            case (5):
+            {
+                HashTableTests();
+
+                std::cout << "\n\n";
             }
         }
     }

@@ -178,4 +178,3 @@ public:
         return array[index].Get()->value;
     }
 };
-
